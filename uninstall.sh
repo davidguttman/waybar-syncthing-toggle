@@ -19,4 +19,4 @@ sed -i ':a;N;$!ba;s/,\n\(\s*\]\)/\n\1/g' "$WAYBAR_DIR/config.jsonc"
 
 sed -i '/@import "waybar-syncthing-toggle.css"/d' "$WAYBAR_DIR/style.css"
 
-echo "Uninstalled. Restart waybar: pkill waybar && waybar &"
+echo "Uninstalled. Restart waybar: pkill waybar"
