@@ -18,14 +18,14 @@ A Waybar module to start/stop Syncthing with a single click. Useful for saving b
 
 ```bash
 ./install.sh
-pkill waybar
+omarchy-restart-waybar
 ```
 
 ## Uninstallation
 
 ```bash
 ./uninstall.sh
-pkill waybar
+omarchy-restart-waybar
 ```
 
 ## Usage

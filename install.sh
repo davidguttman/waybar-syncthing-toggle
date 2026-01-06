@@ -22,4 +22,4 @@ sed -i 's/"group\/tray-expander",/"group\/tray-expander",\n    "custom\/syncthin
 # Add CSS import
 sed -i '1i @import "waybar-syncthing-toggle.css";' "$WAYBAR_DIR/style.css"
 
-echo "Installed. Restart waybar: pkill waybar"
+echo "Installed. Restart waybar: omarchy-restart-waybar"
