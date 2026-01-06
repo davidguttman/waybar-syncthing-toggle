@@ -1,0 +1,7 @@
+#custom-syncthing {
+  margin: 0 7.5px;
+}
+
+#custom-syncthing.stopped {
+  opacity: 0.5;
+}
